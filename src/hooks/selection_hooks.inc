@@ -1,3 +1,6 @@
+/* SPDX-FileCopyrightText: 2026 N.Leiten
+ * SPDX-License-Identifier: LicenseRef-KW-Game-Plugin
+ */
 /* Only functional selection-removal/destruction hooks; no diagnostic callbacks. */
 #include <kwgameplay/selection_preservation_api.h>
 #if defined(__GNUC__)

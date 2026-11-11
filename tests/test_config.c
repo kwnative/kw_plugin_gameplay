@@ -1,3 +1,6 @@
+/* SPDX-FileCopyrightText: 2026 N.Leiten
+ * SPDX-License-Identifier: LicenseRef-KW-Game-Plugin
+ */
 #include <assert.h>
 #include <stdio.h>
 #include <string.h>

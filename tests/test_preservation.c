@@ -1,3 +1,6 @@
+/* SPDX-FileCopyrightText: 2026 N.Leiten
+ * SPDX-License-Identifier: LicenseRef-KW-Game-Plugin
+ */
 /* Executes the release hook bodies with bounded memory/native-call fixtures.
  * No game, Wine, diagnostic implementation or historical bridge is included. */
 #include <assert.h>

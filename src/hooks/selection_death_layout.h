@@ -1,3 +1,6 @@
+/* SPDX-FileCopyrightText: 2026 N.Leiten
+ * SPDX-License-Identifier: LicenseRef-KW-Game-Plugin
+ */
 #ifndef KWGAMEPLAY_SELECTION_DEATH_LAYOUT_H
 #define KWGAMEPLAY_SELECTION_DEATH_LAYOUT_H
 #include <stdint.h>

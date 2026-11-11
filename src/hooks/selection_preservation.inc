@@ -1,3 +1,6 @@
+/* SPDX-FileCopyrightText: 2026 N.Leiten
+ * SPDX-License-Identifier: LicenseRef-KW-Game-Plugin
+ */
 /* Functional Attack-Move preservation only. No tracing, subscriber callbacks,
  * simulation/selection writes, command replay or diagnostic work. */
 static volatile LONG selection_preservation_enabled, selection_preservation_tls_failed;

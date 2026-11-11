@@ -1,3 +1,6 @@
+/* SPDX-FileCopyrightText: 2026 N.Leiten
+ * SPDX-License-Identifier: LicenseRef-KW-Game-Plugin
+ */
 /* Public gameplay lifecycle extension. Prepare only resolves/reserves; code
  * publication is brokered and rolled back by the framework on activation error. */
 #include "hooks/selection_death_layout.h"

@@ -1,3 +1,6 @@
+/* SPDX-FileCopyrightText: 2026 N.Leiten
+ * SPDX-License-Identifier: LicenseRef-KW-Game-Plugin
+ */
 /* Release gameplay fixes only: no input tap, tracing queue or profiler. */
 #define WIN32_LEAN_AND_MEAN
 #define KWENGINE_USE_RUNTIME_RESOLVER

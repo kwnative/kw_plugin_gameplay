@@ -1,3 +1,6 @@
+/* SPDX-FileCopyrightText: 2026 N.Leiten
+ * SPDX-License-Identifier: LicenseRef-KW-Game-Plugin
+ */
 #ifndef KWGAMEPLAY_SELECTION_PRESERVATION_API_H
 #define KWGAMEPLAY_SELECTION_PRESERVATION_API_H
 #include <kwengine/native_status.h>
