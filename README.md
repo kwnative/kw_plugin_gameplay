@@ -1,5 +1,9 @@
 # kw_plugin_gameplay
 
+Licensed under **GPLv3**, with a game interoperability permission. See
+[LICENSING.md](LICENSING.md) for scope, source-distribution obligations and
+[third-party notices](THIRD_PARTY_NOTICES.md).
+
 Compatible native gameplay/input preservation.
 
 The release DLL contains only the functional Attack-Move preservation hooks:
