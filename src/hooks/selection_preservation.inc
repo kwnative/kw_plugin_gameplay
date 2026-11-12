@@ -14,7 +14,7 @@ struct selection_preservation_scope {
 typedef void *(KWGAMEPLAY_THISCALL *selection_preservation_destroy_fn)(void *, uint32_t);
 static selection_preservation_destroy_fn selection_preservation_original_destroy;
 
-/* Match identity is independent of the diagnostic/AI selection-vector bound.
+/* Match identity is independent of the SDK selection-vector export bound.
  * Do not call kwengine_selection_read here: its 128-ID export limit is not a game
  * or input limit. Keep the same active/local/non-defeated context checks. */
 struct selection_preservation_context {

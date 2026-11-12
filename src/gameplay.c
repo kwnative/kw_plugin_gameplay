@@ -33,7 +33,7 @@ static uint32_t KWF_CALL prepare(const struct kwf_context *context)
     if (context->role != KWF_ROLE_RENDERED)
         return KWF_UNSUPPORTED;
     gameplay_context = context;
-    if (!kwengine_config_load(context, L"\\plugins\\kw_gameplay.ini", L"\\kwbot_host.ini", &gameplay_config, kwgameplay_config_parse))
+    if (!kwengine_config_load(context, L"\\plugins\\kw_gameplay.ini", NULL, &gameplay_config, kwgameplay_config_parse))
         return KWF_ERROR;
     if (!kwengine_client_bind(context) || !kwengine_resolve((void *)context->game_image, context->game_image_size, &resolution))
         return KWF_UNSUPPORTED;
